@@ -1,0 +1,19 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "huangjin-cli-service serve",
+    "build": "huangjin-cli-service build"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "html-withimg-loader": "^0.1.16",
+    "huangjin-cli-service": "^1.0.1",
+    "lodash-es": "^4.17.15",
+    "reset.css": "^2.0.2"
+  }
+}
