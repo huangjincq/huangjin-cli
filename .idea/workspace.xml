@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a435741-258c-45cb-b6eb-55b82f2c2f12" name="Default Changelist" comment="" />
+    <list default="true" id="4a435741-258c-45cb-b6eb-55b82f2c2f12" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/bin/huangjin-cli-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/bin/huangjin-cli-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/assets/styles/common.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/assets/styles/reset.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/index/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/index/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/index/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/index/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/page1/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/page1/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/page1/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/Service.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/lib/Service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/configs/webpack.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/lib/configs/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/configs/webpackDevServer.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/lib/configs/webpackDevServer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/scripts/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +40,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/packages/webpack4_multipage" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1c18XtqiT44gphMqDlMWq7cLn98" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -27,7 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-test" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,6 +84,10 @@
       <workItem from="1589684782482" duration="3938000" />
       <workItem from="1589702147315" duration="9300000" />
       <workItem from="1589781966171" duration="493000" />
+      <workItem from="1589801303471" duration="605000" />
+      <workItem from="1589804206890" duration="760000" />
+      <workItem from="1589846362315" duration="1290000" />
+      <workItem from="1589879484606" duration="2336000" />
     </task>
     <servers />
   </component>
@@ -66,13 +95,19 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="741" y="275" key="FileChooserDialogImpl" timestamp="1589709665930">
+    <state x="548" y="23" key="CommitChangelistDialog2" timestamp="1589804904621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="548" y="23" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589804904621" />
+    <state x="593" y="218" key="FileChooserDialogImpl" timestamp="1589880046834">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="593" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589880046834" />
     <state x="741" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589709665930" />
-    <state x="614" y="232" width="693" height="574" key="find.popup" timestamp="1589710000717">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="491" y="184" width="678" height="574" key="find.popup" timestamp="1589847817280">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="491" y="184" width="678" height="574" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1589847817280" />
     <state x="614" y="232" width="693" height="574" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589710000717" />
     <state x="619" y="242" key="run.anything.popup" timestamp="1589711948854">
       <screen x="0" y="0" width="1920" height="1040" />

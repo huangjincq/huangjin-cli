@@ -3,7 +3,7 @@
 const { semver, error } = require('../../cli-shared-utils')
 
 const Service = require('../lib/Service')
-const service = new Service(process.env.VUE_CLI_CONTEXT || process.cwd())
+const service = new Service(process.cwd())
 
 const rawArgv = process.argv.slice(2)
 const args = require('minimist')(rawArgv, {
@@ -12,7 +12,6 @@ const args = require('minimist')(rawArgv, {
     'modern',
     'report',
     'report-json',
-    'inline-vue',
     'watch',
     // serve
     'open',

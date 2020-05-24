@@ -33,7 +33,7 @@ module.exports = {
     maxAssetSize: 450000, // in bytes
   },
   externals: {
-    jquery: 'jQuery'
+    // jquery: 'jQuery'
   },
   optimization,
   module:wModule,

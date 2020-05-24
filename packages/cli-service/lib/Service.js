@@ -1,7 +1,7 @@
 const webpack = require('webpack')
 const WebpackDevServer = require('webpack-dev-server')
-const webpackConfig = require('./configs/webpack.config.babel')
-const webpackDevServerConfig = require('./configs/webpackDevServer.config.babel')
+const webpackConfig = require('./configs/webpack.config')
+const webpackDevServerConfig = require('./configs/webpackDevServer.config')
 const PORT = require('./configs/env').PORT
 
 const formatMessages = require('webpack-format-messages')
@@ -12,7 +12,7 @@ module.exports = class Service {
   }
 
   async run (name, args = {}, rawArgv = []) {
-    if (name !== build) {
+    if (name !== 'build') {
       const compiler = webpack(webpackConfig)
       const server = new WebpackDevServer(compiler, webpackDevServerConfig)
 

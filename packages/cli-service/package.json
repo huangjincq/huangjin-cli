@@ -54,8 +54,5 @@
     "webpack-format-messages": "^2.0.5",
     "webpack-merge": "^4.2.2"
   },
-  "devDependencies": {
-    "lodash-es": "^4.17.15",
-    "reset.css": "^2.0.2"
-  }
+  "devDependencies": {}
 }

@@ -25,7 +25,7 @@ program.version('1.0.0', '-v, --version')
         },
         {
           name: 'template',
-          message: '请输入模板类型（pc/mobile）：'
+          message: '请输入模板类型（pc/h5）：'
         }
       ]).then((answers) => {
         const spinner = ora('正在下载模板...')

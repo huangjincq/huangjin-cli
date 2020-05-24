@@ -13,6 +13,7 @@ module.exports = {
     "linebreak-style": ["error", "unix"],
     // "quotes": ["error", "double"],
     // "semi": ["error", "always"],
+    'semi': 0,
     "import/no-duplicates": [0]
   }
 };
