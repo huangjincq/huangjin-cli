@@ -1,31 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4a435741-258c-45cb-b6eb-55b82f2c2f12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli-service/bin/huangjin-cli-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/bin/huangjin-cli-service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/assets/styles/common.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/assets/styles/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/index/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/index/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/index/index.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/index/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/page1/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/page1/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/generator/template/src/pages/page1/index.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/Service.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/lib/Service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/configs/webpack.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/lib/configs/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/configs/webpackDevServer.config.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/lib/configs/webpackDevServer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/scripts/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/scripts/start.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli-service/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/__tests__/pluginResolution.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/_silence.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/env.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/ipc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/launch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/openBrowser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/openChrome.applescript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/pkg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/pluginResolution.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/spinner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/yarn.lock" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,13 +69,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo-test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,7 +83,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="Z:\web-soft\WebStorm 2019.3.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -88,30 +111,62 @@
       <workItem from="1589804206890" duration="760000" />
       <workItem from="1589846362315" duration="1290000" />
       <workItem from="1589879484606" duration="2336000" />
+      <workItem from="1590387604054" duration="3798000" />
+      <workItem from="1590391985327" duration="1178000" />
+      <workItem from="1590394731266" duration="5689000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="548" y="23" key="CommitChangelistDialog2" timestamp="1589804904621">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="548" y="23" key="CommitChangelistDialog2/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1589804904621" />
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog" timestamp="1590399087987">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="100" y="100" width="1720" height="880" key="DiffContextDialog/-1440.180.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1590399087987" />
     <state x="593" y="218" key="FileChooserDialogImpl" timestamp="1589880046834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589880046834" />
     <state x="741" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589709665930" />
-    <state x="491" y="184" width="678" height="574" key="find.popup" timestamp="1589847817280">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="614" y="241" width="848" height="753" key="find.popup" timestamp="1590397270033">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="614" y="241" width="848" height="753" key="find.popup/-1440.180.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1590397270033" />
     <state x="491" y="184" width="678" height="574" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1589847817280" />
     <state x="614" y="232" width="693" height="574" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589710000717" />
-    <state x="619" y="242" key="run.anything.popup" timestamp="1589711948854">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="619" y="217" key="run.anything.popup" timestamp="1590400194736">
+      <screen x="0" y="23" width="1920" height="1004" />
     </state>
+    <state x="619" y="217" key="run.anything.popup/-1440.180.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1590400144620" />
+    <state x="619" y="217" key="run.anything.popup/-1440.203.1440.877/0.23.1920.1004@0.23.1920.1004" timestamp="1590400194736" />
     <state x="619" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589711948854" />
   </component>
 </project>

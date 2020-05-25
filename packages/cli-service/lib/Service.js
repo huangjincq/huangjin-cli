@@ -1,40 +1,68 @@
 const webpack = require('webpack')
+const fs = require('fs')
+const path = require('path')
 const WebpackDevServer = require('webpack-dev-server')
 const webpackConfig = require('./configs/webpack.config')
 const webpackDevServerConfig = require('./configs/webpackDevServer.config')
+const express = require('express')
+const DIST_PORT = 3000
 const PORT = require('./configs/env').PORT
+const merge = require('webpack-merge')
+
+const appConfigPath = path.join(process.cwd(), './app.config.js')
+let customConfig = {
+  webpackConfig: {},
+  devConfig: {}
+}
+
+if (fs.existsSync(appConfigPath)) {
+  customConfig = require(appConfigPath)
+}
 
 const formatMessages = require('webpack-format-messages')
 const chalk = require('chalk')
+
 
 module.exports = class Service {
   constructor (context, { plugins, pkg, inlineOptions, useBuiltIn } = {}) {
   }
 
   async run (name, args = {}, rawArgv = []) {
-    if (name !== 'build') {
-      const compiler = webpack(webpackConfig)
-      const server = new WebpackDevServer(compiler, webpackDevServerConfig)
-
-      server.listen(PORT, function () {
-        console.log('Example app listening on port 9001!\n')
-      });
-
-      ['SIGINT', 'SIGTERM'].forEach(function (sig) {
-        process.on(sig, function () {
-          server.close()
-          process.exit()
-        })
-      })
-    } else {
-      build()
+    switch (name) {
+      case 'serve':
+        serve()
+        break
+      case 'build':
+        build()
+        break
+      case 'distServe':
+        distServe()
+        break
+      default:
     }
   }
 }
 
+
+function serve () {
+  const compiler = webpack(merge(webpackConfig, customConfig.webpackConfig))
+  const server = new WebpackDevServer(compiler, Object.assign(webpackDevServerConfig, customConfig.devConfig))
+
+  server.listen(PORT, function () {
+    console.log('Example app listening on port 9001!\n')
+  });
+
+  ['SIGINT', 'SIGTERM'].forEach(function (sig) {
+    process.on(sig, function () {
+      server.close()
+      process.exit()
+    })
+  })
+}
+
 function build () {
-  const complier = webpack(webpackConfig)
-  complier.run((err, stats) => {
+  const compiler = webpack(merge(webpackConfig, customConfig.webpackConfig))
+  compiler.run((err, stats) => {
     let messages
     if (err) {
       messages = formatMessages({
@@ -63,8 +91,16 @@ function build () {
     buildCoastTime = buildCoastTime.toFixed(2)
 
     console.log(chalk.blue(
-        `build completed in ${buildCoastTime}s\n`
+      `build completed in ${buildCoastTime}s\n`
     ))
 
+  })
+}
+
+function distServe () {
+  const app = express()
+  app.use(express.static(path.join(process.cwd(), './dist')))
+  app.listen(DIST_PORT, () => {
+    console.log('Example app listening at http://localhost:' + DIST_PORT)
   })
 }

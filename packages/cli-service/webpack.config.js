@@ -6,7 +6,10 @@ let service = process.VUE_CLI_SERVICE
 if (!service) {
   const Service = require('./lib/Service')
   service = new Service(process.env.VUE_CLI_CONTEXT || process.cwd())
-  service.init(process.env.VUE_CLI_MODE || process.env.NODE_ENV)
+  service.run('serve').catch(err => {
+    error(err)
+    process.exit(1)
+  })
 }
 
 module.exports = service.resolveWebpackConfig()

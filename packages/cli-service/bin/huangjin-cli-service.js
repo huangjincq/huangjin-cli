@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-const { semver, error } = require('../../cli-shared-utils')
-
 const Service = require('../lib/Service')
 const service = new Service(process.cwd())
 
@@ -24,6 +22,5 @@ const args = require('minimist')(rawArgv, {
 const command = args._[0]
 
 service.run(command, args, rawArgv).catch(err => {
-  error(err)
   process.exit(1)
 })
