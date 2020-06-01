@@ -1,7 +1,7 @@
 {
-  "name": "huangjin-cli",
+  "name": "@inke-design/cli",
   "version": "1.0.12",
-  "description": "A cli by huangjin",
+  "description": "A cli by inke-design",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "huangjin": "index.js"
+    "inke-design": "index.js"
   },
   "dependencies": {
     "chalk": "^3.0.0",
