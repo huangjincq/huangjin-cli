@@ -19,36 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a435741-258c-45cb-b6eb-55b82f2c2f12" name="Default Changelist" comment="">
+    <list default="true" id="4a435741-258c-45cb-b6eb-55b82f2c2f12" name="Default Changelist" comment="修改代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/bin/huangjin-cli-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/bin/huangjin-cli-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/packages/cli-service/lib/Service.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/lib/Service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-service/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/__tests__/pluginResolution.spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/_silence.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/exit.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/ipc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/launch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/logger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/module.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/object.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/openBrowser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/openChrome.applescript" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/pkg.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/pluginResolution.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/request.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/spinner.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/lib/validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli-shared-utils/yarn.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli-service/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli-service/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/cli/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,6 +59,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
@@ -113,8 +90,22 @@
       <workItem from="1589879484606" duration="2336000" />
       <workItem from="1590387604054" duration="3798000" />
       <workItem from="1590391985327" duration="1178000" />
-      <workItem from="1590394731266" duration="5689000" />
+      <workItem from="1590394731266" duration="9799000" />
+      <workItem from="1590745074546" duration="228000" />
+      <workItem from="1590970118151" duration="57000" />
+      <workItem from="1590970197333" duration="271000" />
+      <workItem from="1590975466347" duration="295000" />
+      <workItem from="1590980053790" duration="7000" />
+      <workItem from="1591001321724" duration="339000" />
     </task>
+    <task id="LOCAL-00001" summary="修改代码">
+      <created>1590400480378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590400480378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,6 +133,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改代码" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="548" y="23" key="CommitChangelistDialog2" timestamp="1589804904621">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -156,6 +151,14 @@
     </state>
     <state x="593" y="218" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589880046834" />
     <state x="741" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1589709665930" />
+    <state x="109" y="0" key="SettingsEditor" timestamp="1590407192965">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="109" y="0" key="SettingsEditor/-1440.180.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1590407192965" />
+    <state x="559" y="277" key="Vcs.Push.Dialog.v2" timestamp="1590400482249">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="559" y="277" key="Vcs.Push.Dialog.v2/-1440.180.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1590400482249" />
     <state x="614" y="241" width="848" height="753" key="find.popup" timestamp="1590397270033">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

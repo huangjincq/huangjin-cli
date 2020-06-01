@@ -8,6 +8,7 @@ const express = require('express')
 const DIST_PORT = 3000
 const PORT = require('./configs/env').PORT
 const merge = require('webpack-merge')
+const proxy = require('http-proxy-middleware')
 
 const appConfigPath = path.join(process.cwd(), './app.config.js')
 let customConfig = {
@@ -100,7 +101,17 @@ function build () {
 function distServe () {
   const app = express()
   app.use(express.static(path.join(process.cwd(), './dist')))
+  if (customConfig.devConfig && customConfig.devConfig.proxy) {
+    loopProxy(app, customConfig.devConfig.proxy)
+  }
   app.listen(DIST_PORT, () => {
     console.log('Example app listening at http://localhost:' + DIST_PORT)
+  })
+}
+
+// 循环代理
+function loopProxy (app, proxyMap) {
+  Object.entries(proxyMap).forEach(([key, value], index) => {
+    app.use(key, proxy(value));
   })
 }
