@@ -1,15 +1,15 @@
 {
-  "name": "huangjin-cli-service",
+  "name": "@inke-design/cli-service",
   "version": "1.0.0",
   "author": "huangjin",
   "license": "ISC",
   "description": "",
   "main": "lib/Service.js",
   "bin": {
-    "huangjin-cli-service": "./bin/huangjin-cli-service.js"
+    "cli-service": "./bin/cli-service.js"
   },
   "keywords": [
-    "cli"
+    "cli-service"
   ],
   "dependencies": {
     "@babel/core": "^7.5.5",

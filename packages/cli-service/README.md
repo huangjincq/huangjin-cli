@@ -1,4 +1,4 @@
-# huangjin-cli-service
+# @inke-design/cli-service
 
-> service for huangjin-cli
+> service for inke-design
 
